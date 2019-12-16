@@ -1,0 +1,102 @@
+
+
+.nav {
+  background-color: cadetblue;
+}
+
+.navlink>a{
+color: black;
+padding: 10px 20px 10px 20px;
+}
+
+.navlink>a:hover{
+  background-color: rgba(63, 50, 50, 0.425);
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  color: aliceblue;
+}
+
+nav>a>h3{
+  color: rgb(94, 57, 9); 
+  font-family: 'Lobster', cursive;
+}
+
+nav>a:hover{
+  text-decoration: none;
+}
+
+header{
+  background-image: url(https://www.wallpaperflare.com/static/724/907/736/pizza-pastry-tasty-cheese-wallpaper.jpg);
+  height: 680px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 2px 2px 5px rgba(122, 116, 116, 0.658);
+}
+
+header>h1{
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  padding-top: 300px;
+}
+
+header>p{
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
+
+.toggle-btn>a{
+  color: black;
+  /* border: 2px solid black; */
+  padding: 20px 5px 20px 5px;
+  margin: 10px;
+}
+
+.toggle-btn>a:hover{
+  text-decoration: none;
+  color: azure;
+  box-shadow: 2px 2px 5px azure;
+}
+
+.toggle-btn{
+  background-color: rgb(211, 205, 205);
+  font-size: 18px;
+  font-weight: 700;
+  height: 75px;
+  margin: 2px 0px 2px 0px;
+}
+
+
+
+.pizza-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#yourorder{
+  box-shadow: 3px 3px 5px black;
+  padding: 20px;
+  height: auto;
+  overflow-y: auto;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0px 40px 0px;
+}
+
+table, th, td{
+  border-bottom: 1px solid black;
+}
+
+th, td{
+  padding: 10px;
+}
+
+#deliveryLocation{
+  display: none;
+}
