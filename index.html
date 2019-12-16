@@ -1,0 +1,215 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <link href="https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap" rel="stylesheet">
+
+   <title>IP4</title>
+ </head>
+ <body>
+  <nav class="nav navbar sticky-top">
+    <a href="#home"><img src="https://bit.ly/2LYvzJo" alt="logo" width="80"></a>
+    <a href="#home"><h3>Tasty Pizza</h3></a>
+    <div class="navlink">
+        <a href="#pizza">Order</a>
+        <a href="#cart">Your Cart</a>
+    </div>
+
+</nav>
+
+<header id="home" class="text-center">
+    <h1>TASTY PIZZA.</h1>
+    <p><strong>Finger-licking is an understatement!</strong> </p>
+</header>
+
+<div id="pizza"></div>
+<div class="navbar justify-content-center toggle-btn">
+    <a href="#">Pizza</a>        
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+               
+            
+            <div class="pizza-section">
+                
+                  
+              
+                      <div class="col-md-4" id="pizza"> 
+                        <img class="img-thumbnail" src="https://bit.ly/2qTVieE" alt="bbq steak" height="300" width="300"><br>                
+                        <p><b id="bbqsteak">BBQ Steak</b></br> This beauty is filled with well made bbq <br> bacon, spicy pepperoni and hot sausage.</p>                    
+                        <form required id="bbqopt">
+                            <select class="mb-3 form-control">            
+                                <option disabled selected value="0">Choose your pizza</option>
+                                <option id="size" value="900">Large</option>
+                                <option id="size" value="500">Standard</option>
+                                <option id="size" value="400">Small</option>
+                            </select>
+                        </form>                        
+
+                        <form required id="bbqcrust">
+                            <select class="mb-3 form-control">            
+                                <option disabled selected value="0">Crust??</option>
+                                <option id="crust" value="250">Thick</option>
+                                <option id="crust" value="150">Thin</option>
+                                <option id="crust" value="200">Gluten-free</option>
+                            </select>
+                        </form>
+
+                        <form required id="bbqtopping">
+                            <select class="mb-3 form-control">            
+                                <option disabled selected value="0">Extra Toppings??</option>
+                                <option id="topps" value="200">Bacon</option>
+                                <option id="topps" value="200">Onion</option>
+                                <option id="topps" value="200">Black Olives</option>
+                            </select>
+                        </form>
+                        <button id="bbqcart" type="submit" class="btn btn-primary order" value="">Add to Cart</button>                                        
+                        </div>
+                  
+                    
+                      <div class="col-md-4" id="pizza"> 
+                        <img class="img-thumbnail" src="https://f52.co/36B2EmD" alt="Hawaiian" height="300" width="300"><br>                
+                        <p><b id="hawaiian">Hawaiian Pizza</b></br>topped with tomato sauce, <br> cheese, pineapple, and ham.</p>
+                        <div id="hawaiopt">
+                            <select class="mb-3 form-control" name="size">            
+                                <option disabled selected value="0">Choose your pizza</option>
+                                <option id="size" value="900">Large</option>
+                                <option id="size" value="500">Standard</option>
+                                <option id="size" value="400">Small</option>
+                            </select>
+                        </div>
+
+                        <div id="hawaicrust">
+                            <select class="mb-3 form-control" name="crust">            
+                                <option disabled selected value="0">Crust??</option>
+                                <option id="crust" value="250">Thick</option>
+                                <option id="crust" value="150">Thin</option>
+                                <option id="crust" value="200">Gluten-free</option>
+                            </select>
+                        </div>
+
+                        <div id="hawaitopping">
+                            <select class="mb-3 form-control" name="toppings">            
+                                <option disabled selected value="0">Extra Toppings??</option>
+                                <option id="topps" value="200">Bacon</option>
+                                <option id="topps" value="200">Onion</option>
+                                <option id="topps" value="200">Pineapple</option>
+                            </select>
+                        </div>
+                        <button id="hawaiiancart" class="btn btn-primary order" value="">Add to Cart</button>                
+                    </div>
+                
+                
+
+                
+                    <div class="col-md-4" id="pizza">
+                        <img class="img-thumbnail" src="https://img.taste.com.au/C--WdSJm/taste/2016/11/peri-peri-barbecue-chicken-pizza-90806-1.jpeg" alt="Chicken Peri Peri" height="300" width="300"><br>                    
+                        <p><b id="periperi">Peri Peri Chicken</b></br>sliced chicken breast, mozzarella cheese, <br> and a few other complementary toppings, <br> liberally laced with peri peri sauce.</p>                    
+                        <div id="periopt">
+                            <select class="mb-3 form-control" name="size">            
+                                <option disabled selected value="0">Choose your pizza</option>
+                                <option id="size" value="900">Large</option>
+                                <option id="size" value="500">Standard</option>
+                                <option id="size" value="400">Small</option>
+                            </select>
+                        </div>
+
+                        <div id="pericrust">
+                            <select class="mb-3 form-control" name="crust">            
+                                <option disabled selected value="0">Crust??</option>
+                                <option id="crust" value="200">Thick</option>
+                                <option id="crust" value="200">Thin</option>
+                                <option id="crust" value="200">Gluten-free</option>
+                            </select>
+                        </div>
+
+                        <div id="peritopping">
+                            <select class="mb-3 form-control" name="toppings">            
+                                <option disabled selected value="0">Extra Toppings??</option>
+                                <option id="topps" value="200">Bacon</option>
+                                <option id="topps" value="200">Onion</option>
+                                <option id="topps" value="200">Black Olives</option>
+                            </select>
+                        </div>
+                        <button id="peripericart" class="btn btn-primary order" value="">Add to Cart</button>   
+                        </div>                                     
+                     
+                
+        
+            
+        </div>
+        
+        
+            
+        
+    </div>
+    <div>
+      <div class="card-body" id="yourorder">
+        <h3 id="cart">Your Order.</h3>
+        <div id="table">
+            <table id="list"> 
+                <tr>
+                    <th>Order</th>
+                    <th>Price</th>                                
+                </tr>
+            </table>
+            
+        </div>
+
+        <div>
+            <p style="font-family: 'Lobster', cursive; font-size: 24px;">Your Total is: <span id="texttotal"></span></p>
+        </div>
+
+        <h3><b>Delivery</b></h3>
+        <div>
+            <button class="btn btn-success mb-4" id="delivery">Delivery</button>
+            <div id="deliveryLocation">
+                <input class="required form-control mb-4" id="location" type="text" value="" placeholder="Location">
+            </div>
+        </div>
+
+        <button id="check" class="btn btn-primary">Checkout</button>
+
+    </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="row text-center">
+            <div class="location col-md-4">
+                <h3><b>Locate Us:</b></h3>
+                <hr>
+                <div>
+                    <h4><b>Mombasa</b></h4>
+                    <p>Krishna Towers</p>
+                    <p><i class="fa fa-phone" style="font-size:18px; color: black; margin: 4px;"></i>+254 7200 300 55</p>
+                </div>
+            </div>
+
+            <div class="contact col-md-4">
+                <h3><b>Custom Service:</b></h3>
+                <hr>
+                <a href="gmail.com"><i class="fa fa-envelope" style="font-size:18px; color: black; margin: 4px;"></i>tastypizza@gmail.com</a>
+            </div>
+
+            <div class="socials col-md-4">
+                <h3><b>Socials:</b></h3>
+                <hr>
+                <div class="d-flex justify-content-around">
+                    <a href="facebook.com"><i class="fa fa-facebook" style="font-size:32px; color: black; margin: 10px;"></i></a>
+                    <a href="twitter.com"><i class="fa fa-twitter" style="font-size:32px; color: black; margin: 10px;"></i></a>
+                    <a href="instagram.com"><i class="fa fa-instagram" style="font-size:32px; color: black; margin: 10px;"></i></a>   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+ </body>
+ </html>
